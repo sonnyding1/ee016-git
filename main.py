@@ -37,6 +37,7 @@ def merge_sort(arr,cmp):
     if right:
         output = output.extend(right)
 
+    return output
 
 # must be in-place sort
 def quick_sort(arr,cmp):
