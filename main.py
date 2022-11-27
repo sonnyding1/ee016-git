@@ -3,8 +3,6 @@
 #          cmp(a,b)<0   if a should be placed before b,
 #          cmp(a,b)==0  if arr is still sorted after a and b are exchanged,
 #          cmp(a,b)>0   if a should be placed behind b.
-import random
-
 def multi_sort(arr, cmp, method="None"):
     if(method=="quick"):
         quick_sort(arr,cmp)
@@ -14,6 +12,10 @@ def multi_sort(arr, cmp, method="None"):
         return
     else:
         print("invalid argument!")
+        
+        
+        
+        
 # must be in-place sort
 def merge_sort(arr,cmp):
     pass
